@@ -2,7 +2,7 @@
 # Module for sh commands
 import os
 
-# USB Vendor ID
+# USB Vendor IDs
 Acer = '0502'
 Asus = '0b05'
 Dell = '413c'
@@ -39,7 +39,9 @@ Teleepoch = '2340'
 Toshiba = '0930'
 ZTE = '19d2'
 
-vendor = raw_input("Insert the name: ")
+vendor = raw_input("Insert the device's vendor name: ")
+
+# Create the string that will be printed in the file based on the name contained in the variable "vendor"
 
 #################################################################################################
 if (vendor == "Acer" or vendor == "acer"):
